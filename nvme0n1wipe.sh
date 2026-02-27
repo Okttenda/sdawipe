@@ -5,7 +5,7 @@
 # I have replaced it with /dev/nvme0n1 to prevent accidental system destruction.
 # Change 'TARGET_DRIVE' to the actual device you want to wipe (e.g., /dev/sdb).
 
-TARGET_DRIVE="/dev/sdX"
+TARGET_DRIVE="/dev/nvme0n1"
 
 # Check if the user has updated the placeholder
 if [[ "$TARGET_DRIVE" == "/dev/sdX" ]]; then
